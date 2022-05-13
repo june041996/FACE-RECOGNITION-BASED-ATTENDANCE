@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">attendance</string>
+    //login_register
+    <string name="mssv">MSSV</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="username_incorred">MSSV không tồn tại</string>
+    <string name="password_incorred">Mật khẩu không chính xác</string>
+
+    <string name="failed">Lỗi kết nối</string>
+
+    <string name="attendance">Điểm danh</string>
+
+    <string name="subject_title">MÔN HỌC</string>
+    <string name="title_personal_information">THÔNG TIN CÁ NHÂN</string>
+
+    <string name="change_password">Đổi mật khẩu</string>
+    <string name="about_us">About us</string>
+    <string name="log_out">Đăng xuất</string>
+
+    <string name="progress_dialog">Đang tải...</string>
+
+    //change password
+    <string name="title_change_password">ĐỔI MẬT KHẨU</string>
+    <string name="old_pass">Mật khẩu cũ</string>
+    <string name="new_pass">Mật khẩu mới</string>
+    <string name="confirm">Cập nhập</string>
+
+</resources>

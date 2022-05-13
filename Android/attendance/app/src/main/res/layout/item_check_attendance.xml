@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        tools:ignore="MissingConstraints">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <RelativeLayout
+                android:layout_alignParentLeft="true"
+
+                android:paddingLeft="5dp"
+                android:orientation="vertical"
+
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <RelativeLayout
+                        android:paddingLeft="10dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_marginTop="10dp"
+
+                            android:id="@+id/tvNameSubject"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="IMAGE PROCESSING"
+
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            android:textSize="15sp" />
+                        <RelativeLayout
+                            android:layout_marginBottom="5dp"
+                            android:layout_below="@id/tvNameSubject"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:id="@+id/tvGV"
+                                android:text="GV:"
+                                android:textColor="@android:color/black"
+                                android:textSize="12sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:id="@+id/tvNameTeacher"
+                                android:layout_toRightOf="@+id/tvGV"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Giang Vien"
+                                android:textColor="@android:color/black"
+                                android:textSize="12sp" />
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_marginBottom="10dp"
+                            android:id="@+id/tvCount"
+                            android:layout_centerHorizontal="true"
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="wrap_content"
+
+
+                            android:text="--"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
